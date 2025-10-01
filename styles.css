@@ -1,14 +1,59 @@
+body {
+    font-family: "Bradley Hand", "Bradley Hand ITC", cursive;
+    font-weight: 900;
+}
+
+
 .buttons{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
-    padding: 50px;
-    background-color: honeydew;
-    gap:90px
+    margin: 50px 200px;
+    padding: 60px;
+    background-color: rgb(219, 221, 245);
+    gap:30px;
+    border-radius: 75px;
 }
 
 button{
-    height: 75px;
-    width: 250px;
-    font-size: 50px;
+    height: 150px;
+    width: 400px;
+    font-size: 60px;
+    border-radius: 80px;
+    background-color: rgb(251, 228, 209);
+    font-family: "Bradley Hand", "Bradley Hand ITC", cursive;
+    font-weight: 900;
+}
+
+.resultMessage{
+    font-size: 40px;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 50px 200px;
+    padding: 50px;
+    border-radius: 75px;
+    background-color: rgb(219, 221, 245);
+}
+
+.displayScores{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+.humanScore, .computerScore{
+    background-color: rgb(247, 242, 106);
+    padding: 20px;
+    border-radius: 19px;
+    font-size: 30px;
+}
+
+.roundResultMessage{
+    text-align: center;
+    margin: 50px;
+    font-size: 32px;
 }
